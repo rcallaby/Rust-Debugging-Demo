@@ -6,8 +6,6 @@ This repository is a collection of hands-on debugging assignments designed for s
 
 The goal is not just to make the code compile — it is to build strong debugging instincts, deepen your understanding of Rust’s ownership and type system, and practice writing robust, idiomatic code.
 
----
-
 ## Learning Objectives
 
 By working through the assignments in this repository you will:
@@ -20,12 +18,10 @@ By working through the assignments in this repository you will:
 - Refactor broken code into clear, maintainable solutions
 - Document your debugging process
 
----
-
 ## Repository Structure
 
 ```
-rust-debugging-gym/
+rust-debugging-demo/
 ├── README.md
 ├── assignments/
 │   ├── 01-cursed-quest-log/
@@ -50,14 +46,12 @@ Each assignment folder contains:
 - Expected behavior description
 - A reference solution (intended for instructors or self-verification)
 
----
-
 ## Getting Started
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd rust-debugging-demo
+   git clone https://github.com/rcallaby/Rust-Debugging-Demo
+   cd Rust-Debugging-Demo
    ```
 
 2. **Choose an assignment**
@@ -79,8 +73,6 @@ Each assignment folder contains:
 
 6. **Document your work** (most assignments ask for a short debug log explaining the errors you found and how you fixed them).
 
----
-
 ## Current Assignments
 
 | #  | Name                              | Theme                                      | Focus Areas                                                                 | Difficulty    |
@@ -90,8 +82,6 @@ Each assignment folder contains:
 | 03 | *(Coming soon)*                   |                                            |                                                                             |               |
 
 Both current assignments intentionally contain **the same 10 common Rust error categories**, but in completely different problem domains. This allows students to practice recognizing the same underlying issues in new contexts.
-
----
 
 ## How Assignments Are Designed
 
@@ -103,8 +93,6 @@ Every assignment follows the same philosophy:
 - Students must both **make it work** and **make it idiomatic**
 - A short reflection / debug log is usually required so learners articulate *what* went wrong and *why*
 
----
-
 ## For Instructors
 
 - Reference solutions are provided in each assignment’s `solution/` folder.
@@ -112,8 +100,6 @@ Every assignment follows the same philosophy:
 - Assignments are independent — students can complete them in any order.
 - Both existing assignments target the same core set of 10 error categories, making them useful for repeated practice or comparison.
 - Feel free to adapt the stories, add tests, or create auto-graders on top of the exercises.
-
----
 
 ## Contributing
 
@@ -128,10 +114,7 @@ If you would like to contribute:
 
 Please make sure new exercises focus on **debugging skills** rather than pure feature implementation.
 
----
-
 ## License
 
 This repository is licensed under the MIT License. See `LICENSE` for details.
- be ever in your favor.
-```
+
